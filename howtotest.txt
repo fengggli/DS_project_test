@@ -1,0 +1,28 @@
+1.in the shell:
+    create many(2n) users in the database
+! altenative way: pass the user authorization
+
+
+2. in javascript:
+    create threads:(automate)
+    get two clients logged in;
+    set frequency(sleep sometime for each step);
+    make movements in each client;
+
+3. in the shell:
+    use curl to invoke as many threads as possible use parameters:
+
+    for i = 1~2n
+        use curl to invoke player i
+
+    Update: with  phantomjs
+        http://phantomjs.org/quick-start.html
+
+measure time: click -> component get access
+
+100 games
+
+pkill -f firefox
+
+
+

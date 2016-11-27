@@ -1,0 +1,2 @@
+N_process=50	Sum=190706	Count=1771	Avg=107.68
+N_process=100	Sum=1614546	Count=3773	Avg=427.92
