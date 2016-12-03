@@ -56,13 +56,15 @@ page.open(system.args[1], function(status){
     } else {
         waitFor(function(){
             return page.evaluate(function(){
-                //return document.body.querySelector('.symbolSummary .pending') === null
+		//return document.body.querySelector('.symbolSummary .pending') === null
 		console.log('title is ' + document.title);
 		//console.log('gamestatus is ' + document.getElementById("gameStatus"));
 		console.log('gameEnd status is ' + document.getElementById("gameEnd").value);
                 //
                 //
                 return document.body.querySelector("gameEnd") === "gameEnd";
+
+               // return document.body.querySelector('.symbolSummary .pending') === null
             });
         }, function(){
             var exitCode = page.evaluate(function(){
@@ -93,7 +95,6 @@ page.open(system.args[1], function(status){
                 }
             });
             phantom.exit(exitCode);
-        },
-        120000);
+        });
     }
 });
