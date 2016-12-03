@@ -1,2 +1,6 @@
-N_process=50	Sum=190706	Count=1771	Avg=107.68
-N_process=100	Sum=1614546	Count=3773	Avg=427.92
+N_process=10	Avg=108.06 ms
+N_process=20	Avg=109.12 ms
+N_process=50	Avg=120.07 ms
+N_process=100	Avg=427.92 ms
+N_process=150	Avg=827.22 ms
+N_process=200	Avg=1095.69 ms
